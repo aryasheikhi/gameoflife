@@ -1,5 +1,5 @@
 # About this project
-This is a Conway's Game of Life implementation using React.js
+This is a [Conway's Game of Life](https://en.m.wikipedia.org/wiki/Conway%27s_Game_of_Life) implementation using React.js.
 You can set your initial state of the game and hit start and it will continue showing you the result of each generation.
 
 # How to use
