@@ -73,9 +73,9 @@ function GameOfLife() {
             });
         });
 
-        setTimeout(runGame, 200);
+        setTimeout(runGame, 100);
         return;
-    });
+    }, [ setGrid, gameStatusRef, gridCols, gridRows ]);
 
     const startStop = () => {
         setGameStatus(!gameStatus);
